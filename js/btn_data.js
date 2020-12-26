@@ -47,4 +47,11 @@ const btn_success =
     `.btn-success {
         background: #1FB82E !important;
     }`;
-       
+const btn_pri_grad =
+    `.btn-pri-grad {
+        background: linear-gradient(84.96deg, #5C42FF 6.74%, #2F0DFF 108.58%) !important;
+    }`;
+const btn_sec_grad =
+    `.btn-grad-sec {
+        background: linear-gradient(84.96deg, #FF427B 6.74%, #FF133E 108.58%) !important;
+    }`;

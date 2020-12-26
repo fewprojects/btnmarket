@@ -7,6 +7,23 @@
 	border-radius: 5px;
 
 }
+.btn:hover {
+	box-shadow: 0px 15px 30px #AAAAAA;
+	transition: 200ms linear;
+}
+
+.btn:disabled {
+	cursor: not-allowed !important;
+	box-shadow: none !important;
+	background: #ddd !important;
+	color: #AAAAAA !important;
+}
+
+.btn:focus {
+	outline: none !important;
+	box-shadow: 0px 15px 30px #AAAAAA !important;
+	transition: 200ms linear;
+}
 .btn-primary {
 	background: #2F0DFF !important;
 }
@@ -30,21 +47,10 @@
 .btn-success {
 	background: #1FB82E !important;
 }
-
-.btn:hover {
-	box-shadow: 0px 15px 30px #AAAAAA;
-	transition: 200ms linear;
+.btn-pri-grad {
+	background: linear-gradient(84.96deg, #5C42FF 6.74%, #2F0DFF 108.58%) !important;
+}
+.btn-sec-grad {
+	background: linear-gradient(84.96deg, #FF427B 6.74%, #FF133E 108.58%) !important;
 }
 
-.btn:disabled {
-	cursor: not-allowed !important;
-	box-shadow: none !important;
-	background: #ddd !important;
-	color: #AAAAAA !important;
-}
-
-.btn:focus {
-	outline: none !important;
-	box-shadow: 0px 15px 30px #AAAAAA !important;
-	transition: 200ms linear;
-}

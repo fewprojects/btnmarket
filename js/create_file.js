@@ -1,6 +1,7 @@
 
 var app = angular.module("myApp", []);
 app.controller("myCtrl", function ($scope) {
+    // sapceUI buttons
     $scope.btn = btn;
     $scope.btn_primary = btn_primary;
     $scope.btn_secondary = btn_secondary;
@@ -8,6 +9,8 @@ app.controller("myCtrl", function ($scope) {
     $scope.btn_dark = btn_dark;
     $scope.btn_success = btn_success;
     $scope.btn_warning = btn_warning;
+    $scope.btn_pri_grad = btn_pri_grad;
+    $scope.btn_sec_grad = btn_sec_grad;
 });
 
 function createFile() {
