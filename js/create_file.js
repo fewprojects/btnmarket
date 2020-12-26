@@ -15,8 +15,9 @@ app.controller("myCtrl", function ($scope) {
 
 function createFile() {
     var fileName = "buttons.css";
+    var styleLink = "is-link";
     const data = [...document.querySelectorAll('.inp:checked')].map(e => e.value);
     var file = new File(data, fileName, { type: "text/css" });
-    document.getElementById("createFileBtn").innerHTML = "<br><a class=" + " href=" + URL.createObjectURL(file) + " download=" + file.name + ">Download " + file.name + "</a>";
+    document.getElementById("createFileBtn").innerHTML = "<a class=" + styleLink + " href = " + URL.createObjectURL(file) + " download=" + file.name + ">Download " + file.name + "</a>";
 
 }
