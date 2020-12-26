@@ -46,7 +46,7 @@
 }
 
 .plus-minus:active {
-    --scale: 0.5;
+    --scale: 0.98;
 }
 
 .plus-minus:checked {
