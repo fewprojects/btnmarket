@@ -30,12 +30,14 @@
     padding: 2rem;
 }
 .card{
-    border: 0.5px solid black;
+    box-shadow:none;
+    background-color: #f0f0f0;
     padding: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .columns{
     padding: 1rem;
 }
