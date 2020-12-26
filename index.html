@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <title>.btn-market | Select your fav CSS btn </title>
+</head>
+
+<body>
+    <header class="header">
+        <section class="hero is-dark ">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title logo">
+                        .btn-market
+                    </h1>
+
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main" ng-app="myApp" ng-controller="myCtrl">
+        <section class="hero  is-fullheight">
+            <div class="hero-body">
+                <div class="container">
+                    <img class="img-welcome" src="img/wfh_1.svg" alt="">
+                    <h1 class=" is-size-1">
+                        A curated list of CSS buttons
+                    </h1>
+                    <h2 class="subtitle">
+                        Select multiple buttons and download a single css file including CSS codes of them.
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="columns is-desktop">
+                <div class="column is-hidden">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="showButton ">
+                                <button class="btn">btn</button>
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media showButton">
+                                <p class="title is-5">
+                                    <label class="checkbox">
+                                        <input class="custom-control-input inp" type="checkbox" id="inlineCheckbox1"
+                                            Checked value="{{ btn }}"> Select this
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="showButton ">
+                                <button class="btn btn-secondary">btn-primary</button>
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media showButton">
+                                <p class="title is-5">
+                                    <label class="checkbox">
+                                        <input class="custom-control-input inp" type="checkbox" id="inlineCheckbox1"
+                                            value="{{ btn_primary }}"> Select this
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="showButton ">
+                                <button class="btn btn-warning">btn-secondary</button>
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media showButton">
+                                <p class="title is-5">
+                                    <label class="checkbox">
+                                        <input class="custom-control-input inp" type="checkbox" id="inlineCheckbox1"
+                                            value="{{ btn_secondary }}"> Select this
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="showButton ">
+                                <button class="btn btn-success">btn-success</button>
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media showButton">
+                                <p class="title is-5">
+                                    <label class="checkbox">
+                                        <input class="custom-control-input inp" type="checkbox" id="inlineCheckbox1"
+                                            value="{{ btn_success }}"> Select this
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="showButton ">
+                                <button class="btn btn-dark">btn-dark</button>
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media showButton">
+                                <p class="title is-5">
+                                    <label class="checkbox">
+                                        <input class="custom-control-input inp" type="checkbox" id="inlineCheckbox1"
+                                            value="{{ btn_dark }}"> Select this
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="downloadFile">
+            <div class="container is-fullhd">
+                <div class="downloadFile notification is-light">
+                    <p>Download CSS file of your selected buttons</p>
+                    <br>
+                    <p class="demo">
+                    <div class="buttons">
+                        <button id="createFileBtn" onclick="createFile();" class="button is-link">Create CSS
+                            file</button>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- UIkit JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <script src="js/btn_data.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/create_file.js"></script>
+</body>
+
+</html>

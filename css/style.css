@@ -1,0 +1,27 @@
+.header {
+    position: relative;
+    width: 100%;
+}
+
+.img-welcome {
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+}
+
+.logo {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+
+.showButton {
+    display: grid;
+    place-content: center;
+}
+
+.link {
+    text-decoration: none;
+}
+.downloadFile{
+    padding: 2rem;
+}
