@@ -1,7 +1,7 @@
 .plus-minus {
     --primary: #555555;
     --secondary: #f4f4f4;
-    --duration: 0.5s;
+    --duration: 0.2s;
     -webkit-appearance: none;
     -moz-appearance: none;
     -webkit-tap-highlight-color: transparent;
