@@ -6,14 +6,18 @@
 .img-welcome {
     max-width: 100%;
     height: auto;
-    width: 600px;
+    
 }
 
 .logo {
     font-family: 'Dosis', sans-serif;
     font-weight: 700;
 }
-
+.txt h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size:36px;
+}
 .showButton {
     display: grid;
     place-content: center;
@@ -24,4 +28,14 @@
 }
 .downloadFile{
     padding: 2rem;
+}
+.card{
+    border: 0.5px solid black;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.columns{
+    padding: 1rem;
 }
