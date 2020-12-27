@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
     <main class="main" ng-app="myApp" ng-controller="myCtrl">
         <header class="header">
             <section class="hero">
@@ -46,12 +45,13 @@
                             download
                             a css file including codes of them & use in HTML as class
                         </p>
+                        <a href="#btn-list"><button class="btn btn-pri-grad">Get Started</button></a>
                     </div>
                 </div>
             </div>
         </section>
         <section>
-            <div class="columns is-desktop is-multiline">
+            <div id="btn-list" class="columns is-desktop is-multiline">
                 <div class="column is-hidden">
                     <div class="card ">
                         <div class="card-image">
@@ -224,7 +224,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <section class="downloadFile">
@@ -248,6 +247,20 @@
         </div>
     </footer>
     <!-- UIkit JS -->
+    <!-- Always get the latest version -->
+    <!-- Not recommended for production sites! -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <!-- Get minor updates and patch fixes within a major version -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <!-- Get patch fixes within a minor version -->
+    <script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <!-- Get a specific version -->
+    <script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="js/btn_data.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="js/create_file.js"></script>

@@ -1,4 +1,3 @@
-
 var app = angular.module("myApp", []);
 app.controller("myCtrl", function ($scope) {
     // sapceUI buttons
@@ -19,5 +18,4 @@ function createFile() {
     const data = [...document.querySelectorAll('.inp:checked')].map(e => e.value);
     var file = new File(data, fileName, { type: "text/css" });
     document.getElementById("createFileBtn").innerHTML = "<a class=" + styleLink + " href = " + URL.createObjectURL(file) + " download=" + file.name + ">Download " + file.name + "</a>";
-
 }
