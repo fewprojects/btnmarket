@@ -14,7 +14,7 @@
   ### "We only can make any difference with contribution"
   
   If you want to contribute with buttons designed or coded by you, it would be very helpful and it will be my pleasure to show them on .btn-market
-  To contribute your code, Add [codepen](https://codepen.io/) or any code playground link to this [mail](ankit.upa007@gmail.com).
+  To contribute your code, Add [codepen](https://codepen.io/) or any code playground link to this [mail](mailto:ankit.upa007@gmail.com).
   
   ## How to use 
   
