@@ -2,8 +2,8 @@
 
   ##Introdcution
 
-   .btn-market is list of CSS buttons that you can use in your frontend projects and it's Open_source and FREE to use
-   Choose your favourite button from lots of CSS BUttons and download a CSS file including selected ones.
+   .btn-market is list of CSS buttons that you can use in your frontend projects and it's Open_source and FREE to use.
+   choose your favourite button from lots of CSS BUttons and download a CSS file including selected ones.
 
   ## Demo
 
